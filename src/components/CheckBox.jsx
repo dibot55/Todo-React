@@ -4,8 +4,8 @@ import React, { Fragment } from "react";
 
 const Checkbox = props => { //con el props vamos a recibir la data
 
-    const { //objeto
-        onChange, //recibido del props
+    const {
+        onChange,
         data: {id, description, done} //definimos el dato recibido del props
     } = props;
 

@@ -1,4 +1,4 @@
-import './App.scss';
+import './App.css';
 import Container from './components/Container'; //contenedor importado de components
 
 

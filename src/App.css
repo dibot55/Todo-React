@@ -1,0 +1,84 @@
+html{
+  background: #c7eae4;
+  height: 100%;
+  display: flex;
+}
+
+body{
+  width: 100%;
+  margin: auto;
+}
+
+.App{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.todo-list{
+  background: #f1f7ed;
+  font-size: 18px;
+  max-width: 300px;
+  margin: auto;
+  margin-bottom: 24px;
+  padding: 8px, 16px;
+  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.253);
+}
+
+
+.button{
+  outline: none;
+  padding: 8px;
+  border: 1px solid white;
+  border-radius: 20px;
+  color: #54494b;
+  background-color: #e3d081;
+}
+
+.file_input {
+  padding: 2px;
+  background: rgb(221, 218, 218);
+}
+
+.file_input > .text {
+  outline: none;
+  padding: 0px, 10px;
+  font-size: 18px;
+  width: 230px;
+  height: 43px;
+  background: transparent;
+  border: 0px solid;
+}
+
+.todo {
+  display: block;
+  position: relative;
+  padding: 1em 1em 1em 16%;
+  margin: 0 auto;
+  cursor: pointer;
+  border-bottom: solid 1px #ddd;
+}
+
+
+.todo.new-item {
+  opacity: 6;
+}
+
+.todo_state { 
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 6;
+  bottom: 2px;
+} 
+
+.todo_text{
+  color: #54494b;
+  text-align: right;
+}
+
+.text{
+  border-radius: 20px;
+  margin: 1px;
+  height: 15px;
+  padding: 5px;
+}
