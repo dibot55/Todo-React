@@ -37,3 +37,4 @@ En caso de un error de permisos ejecuta el siguiente comando (solo si usas una d
 ```
 sudo chmod +x node_modules/.bin/react-scripts
 ```
+Prueba el proyecto aqui --> https://amused-brother.surge.sh/
